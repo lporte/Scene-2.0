@@ -29,7 +29,18 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/artists', {
+        templateUrl: 'views/artists.html',
+        controller: 'ArtistsCtrl',
+        controllerAs: 'artists'
+      })
       .otherwise({
         redirectTo: '/'
       });
   });
+
+app.factory('Artist', ['$resource', function($resource) {
+  return $resource('/api/artists/:id.json', null, {
+    'update': { method:'PUT' }
+  });
+}]);
