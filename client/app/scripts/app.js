@@ -34,6 +34,7 @@ angular
         controller: 'ArtistsCtrl',
         controllerAs: 'artists'
       })
+
       .otherwise({
         redirectTo: '/'
       });
@@ -44,3 +45,4 @@ app.factory('Artist', ['$resource', function($resource) {
     'update': { method:'PUT' }
   });
 }]);
+
