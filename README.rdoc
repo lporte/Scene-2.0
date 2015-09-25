@@ -6,7 +6,7 @@ Now, the project has become a platform for me to practice refactoring.  The orig
 
 This version (2.0) is a work in progress.  
 
-## Tech
+##Tech
 
 Front end:
 * HTML + CSS + SASS
@@ -23,9 +23,9 @@ Other:
 * paperclip gem 
 * HTTParty gem
 
-## Questions?
+##Questions?
 This project is completely open-source, intended as a learning resource.  If you have any questions/concerns, please feel free to write issues or feature reccomendations. 
 
-## View the Original Scene (because this one isn't done yet)
+##View the Original Scene (because this one isn't done yet)
 [Check it out here](http://scenes.herokuapp.com/)
 
